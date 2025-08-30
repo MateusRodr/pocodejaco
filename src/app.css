@@ -1,0 +1,15 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  padding-top: 76px; /* Para compensar a navbar fixa */
+}
+
+/* Adiciona scroll suave ao navegar pelas seções */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ajusta o scroll para compensar a navbar fixa */
+section {
+  scroll-margin-top: 76px;
+}

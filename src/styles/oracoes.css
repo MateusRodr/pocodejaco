@@ -1,0 +1,50 @@
+.oracoes-section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.oracoes-section h2 {
+  color: #4a6c8a;
+  font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.oracoes-section h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: #8a654a;
+}
+
+.oracao-card {
+  border: none;
+  border-radius: 15px;
+  min-height: 400px;
+}
+
+.oracao-texto {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.list-group-item {
+  border: 1px solid #e9ecef;
+  padding: 15px 20px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.list-group-item.active {
+  background-color: #4a6c8a;
+  border-color: #4a6c8a;
+}
